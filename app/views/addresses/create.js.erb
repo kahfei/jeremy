@@ -1,0 +1,4 @@
+$('#addresses').prepend('<%= escape_javascript(render(@address)) %>');
+$('#addresses > li:first').effect('highlight',{},3000);
+$('#address_form > form')[0].reset();
+

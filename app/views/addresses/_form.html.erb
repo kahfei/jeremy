@@ -1,0 +1,7 @@
+<%= form_for(@address, :remote => true) do |f| %>
+  <fieldset>
+    <p><%= f.label :url, 'Website URL:' %></p>
+    <p><%= f.text_field :url%></p>
+    <p><%= f.submit %></p>
+  </fieldset>
+<% end %>

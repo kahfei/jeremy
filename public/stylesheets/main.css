@@ -1,0 +1,59 @@
+body, p, ol, ul, td {
+	font-family: verdana, arial, helvetica,sans-serif;
+	font-size: 13pt;
+	line-height: 18px;
+}
+#content {
+	width: 642px;
+	margin: 100px auto;
+}
+#addresses {
+	margin-top: 10px;
+	padding: 0 20px;
+	font-size: 13px;
+}
+#addresses li {
+	margin: 4px auto;
+	padding: 8px;
+	list-style: none;
+	border: 1px dotted #ccc;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2x;
+	border-radius: 2px;
+}
+#new_address {
+	border: 3px solid #dcdcdc;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: px;
+	border-radius: 9px;
+	padding: 25px 30px;
+}
+#new_address p {
+	color: #939393;
+	font-size: 12px;
+	line-height: 17px;	
+}
+#new_address label {
+	color: #5c5c5c;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-bottom: 2px;
+}
+#new_address fieldset {
+	border: 0;
+}
+#address_url {
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #5c5c5c;
+	font-size: 13px;
+	padding: 9px;
+	width: 462px;
+}
+#address_submit {
+	display: none;	
+}

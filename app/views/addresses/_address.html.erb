@@ -1,0 +1,8 @@
+<%= content_tag_for(:li, address) do %>
+  <%= address.url %>
+  (<%= link_to 'Delete', address, :confirm => 'Are you sure?', 
+  :method => :delete, :remote => true %>)
+<% end %>
+
+
+
